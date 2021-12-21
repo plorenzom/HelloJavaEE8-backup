@@ -15,7 +15,7 @@
             
             <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:hellojavaee8-test"/>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
-            <property name="javax.persistence.schema-generation.database.action" value="create"/>
+            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
             <property name="javax.persistence.schema-generation.create-script-source" value="scripts/hellojavaee8-test-db.sql"/>
             <property name="javax.persistence.sql-load-script-source" value="scripts/hellojavaee8-test-data.sql"/>
         </properties>
